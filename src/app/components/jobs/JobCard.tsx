@@ -20,10 +20,10 @@ export default function JobCard({ job }: Props) {
       viewport={{ once: true, amount: 0.2 }}
       whileHover={{ y: -6, scale: 1.01 }}
       transition={{ duration: 0.35 }}
-      className="bg-white rounded-xl p-5 flex flex-col md:flex-row md:items-center md:justify-between shadow-sm hover:shadow-md transition"
+      className="bg-white mb-2 rounded-xl p-5 flex flex-col md:flex-row md:items-center md:justify-between shadow-sm hover:shadow-md transition"
     >
       {/* Left */}
-      <div className="flex items-start gap-4">
+      <div className="flex items-start gap-4 " >
         {job.logo && (
           <Image src={job.logo} width={40} height={40} alt="companylogo" className="text-2xl" />
         )}

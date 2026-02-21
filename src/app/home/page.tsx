@@ -134,8 +134,8 @@ const HomePage =({className}:homeProps)=>{
     return(
         <>
          
-        <div id="home" className={`mb-30 pb-20 min-h-screen py-12 min-w-screen sm:w-screen ${className}`} >
-            <div className="border-4 bg-gray-900 items-center w-full h-auto md:h-[200px] -mt-10 content-center py-6">
+        <div id="home" className={`mb-10 pb-20 min-h-screen py-12 min-w-screen sm:w-screen ${className}`} >
+            <div className="border-4 bg-gray-900 items-center w-full h-auto md:h-[200px] mt-2 content-center py-6">
                 <div className="bg-white w-full md:w-[45%] rounded-xl p-4 shadow-lg flex flex-col md:flex-row gap-4 items-center mx-auto">
 
                     <div className="flex items-center gap-2 w-full">
@@ -234,7 +234,7 @@ const HomePage =({className}:homeProps)=>{
                     /> */}
                    
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                        Find the best Hands,
+                        Find the best
                         <br />
                         <span className="text-gray-900 md:text-4xl">  Talents, and Professionals. </span>
                     </h1>
@@ -280,7 +280,7 @@ const HomePage =({className}:homeProps)=>{
                         <div className="relative w-[100%] h-[350px] flex items-center justify-center content-start  ">
                             <div className="relative h-full w-[100%] overflow-hidden">
                                  <Image
-                                    src="/png/FashionDesigner.png"
+                                    src="/png/DeveloperAvatar.png"
                                     alt="Ambience"
                                     width={500}
                                     height={550}
@@ -288,26 +288,26 @@ const HomePage =({className}:homeProps)=>{
                                     style={{ animationDelay: "0s" }}
                                 />
                                <Image
-                                    src="/png/softwareEngineerTwo.png"
+                                    src="/png/AvatarFashionDesigner.png"
                                     alt="Ambience"
-                                    width={300}
-                                    height={350}
+                                    width={500}
+                                    height={550}
                                     className="carousel-image  max-w-3xl mx-auto max-h-[80%] object-contain"
                                     style={{ animationDelay: "8s" }}
                                 />
                                 <Image
                                     src="/svg/femaleFreelancer.svg"
                                     alt="Ambience"
-                                    width={300}
-                                    height={350}
+                                    width={500}
+                                    height={550}
                                     className="carousel-image max-w-3xl mx-auto max-h-[80%] object-contain"
                                     style={{ animationDelay: "16s" }}
                                 />
                                 <Image
-                                    src="/svg/MaleArtisan.svg"
+                                    src="/png/plumberAvatar.png"
                                     alt="Ambience"
-                                    width={300}
-                                    height={350}
+                                    width={500}
+                                    height={550}
                                     className="carousel-image max-w-3xl mx-auto max-h-[80%] object-contain"
                                     style={{ animationDelay: "24s" }}
                                 />
