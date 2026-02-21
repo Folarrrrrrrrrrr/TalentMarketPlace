@@ -1,0 +1,28 @@
+const forteData = [
+  {
+    title: 'Weddings',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: '/images/wedding.jpg',
+    active: true,
+  },
+  {
+    title: 'Irresistible Menu',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: '/images/menu.jpg',
+    active: false,
+  },
+  {
+    title: 'Royal Dinners',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: '/images/royal.jpg',
+    active: false,
+  },
+  {
+    title: 'Conference Hall',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: '/images/conference.jpg',
+    active: false,
+  },
+];
+
+export default forteData;
